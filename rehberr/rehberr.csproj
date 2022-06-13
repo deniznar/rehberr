@@ -45,16 +45,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Anaform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Anaform.Designer.cs">
+      <DependentUpon>Anaform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KisiEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KisiEkle.Designer.cs">
+      <DependentUpon>KisiEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KisiGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KisiGuncelle.Designer.cs">
+      <DependentUpon>KisiGuncelle.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Anaform.resx">
+      <DependentUpon>Anaform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KisiEkle.resx">
+      <DependentUpon>KisiEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KisiGuncelle.resx">
+      <DependentUpon>KisiGuncelle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

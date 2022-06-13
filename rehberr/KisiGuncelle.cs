@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace rehberr
 {
-    public partial class Form1 : Form
+    public partial class KisiGuncelle : Form
     {
-        public Form1()
+        public KisiGuncelle()
         {
             InitializeComponent();
         }
