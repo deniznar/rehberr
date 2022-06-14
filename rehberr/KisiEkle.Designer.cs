@@ -111,6 +111,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "KAYDET";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox2
             // 
@@ -127,6 +128,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(307, 28);
             this.comboBox1.TabIndex = 29;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox15
             // 
@@ -349,6 +351,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "KisiEkle";
             this.Text = "Kişi Ekle";
+            this.Load += new System.EventHandler(this.KisiEkle_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
